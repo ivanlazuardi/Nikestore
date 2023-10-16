@@ -1,5 +1,5 @@
-import React from "react";
-import { ChevronDoubleLeftIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import React from "react"
+import { ChevronDoubleLeftIcon, XMarkIcon } from "@heroicons/react/24/solid"
 
 const CartCount = ({ onCartToggle, totalQTY, onClearCartItems }) => {
   return (
@@ -32,7 +32,7 @@ const CartCount = ({ onCartToggle, totalQTY, onClearCartItems }) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default CartCount;
+export default CartCount
